@@ -39,6 +39,7 @@ export default class App extends Component {
   searchPressed = text => {
     this.setState({
       userInput: text,
+      error: '',
     });
   };
 
